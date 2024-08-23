@@ -10,7 +10,6 @@ public class Odd_and_even {
         System.out.print("숫자를 입력하세요: ");
         int n = sc.nextInt();
         
-        // 홀짝 판별
         System.out.println((n % 2 == 1) ? "odd" : "even");
         
         sc.close();
